@@ -1,5 +1,3 @@
-
-
 # print ([1,2]*2)
 #
 # import array
