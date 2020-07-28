@@ -1,34 +1,4 @@
-# print ([1,2]*2)
-#
-# import array
-#
-# a = array.array('f', (1.0, 1.5, 2.0, 211222))
-# print(a)
-#
-# import sys
-# print (sys.version)
-#
-# import datetime
-# print(datetime.datetime.now())
 
-
-# x=range(10)
-# print (type(x))
-#
-#
-# x=zip([12,2,3],[2,3,34])
-# for i in x:
-#     print (i)
-
-# print([lambda n: index * n for index in range (4)])(2)
-# def multiplexers ():
-
-# def fast (items= []):
-# 	items.append (1)
-# 	return items
-#
-# print(fast ())
-# print(fast ())
 
 
 # print('aeioubcdfg'[:3])
