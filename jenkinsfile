@@ -1,31 +1,14 @@
 pipeline {
 		agent any 
+		parameters {
+			string(name: 'Greeting', defaultValue: 'parameterized pipline', description: 'parameterized pipeline')
+		}
 				stages {
 						stage('One') {
 								steps {
-										echo "hi this is stage One"
+										echo "${params.Greeting} example!!"
 								}
 						}
-						stage('Two') {
-								steps {
-										input('Do you want to proceed')
-								}
-						}
-						stage('Three') {
-								when {
-										not {
-												branch "master"
-										}
-								}
-								steps {
-										echo "Its not branch master"
-								}
-						}
-						stage('Four') {
-										steps {
-																			echo "Runing unit tests"
-																	}
-								}
 						}
 						}
 						
