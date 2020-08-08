@@ -1,25 +1,5 @@
 
 
-
-# print('aeioubcdfg'[:3])
-
-#
-# 	return [lambda n: index * n for index in range (4)]
-#
-# print ([m (2) for m in multiplexers ()])
-
-
-
-
-
-# def testProc(n=[]):
-#     n=n.append(100)
-#     print(n)
-# # Do something with n
-# testProc([1, 2, 3])  # Explicitly passing in a list
-# testProc()  # Using a default empty list
-
-
 # list = ['a', 'b', 'c', 'd', 'e']
 #
 # # print(list[:10])
