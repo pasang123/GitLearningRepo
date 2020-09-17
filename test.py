@@ -1,10 +1,3 @@
-
-
-
-# x=range(10)
-# print (type(x))
-#
-#
 # x=zip([12,2,3],[2,3,34])
 # for i in x:
 #     print (i)
