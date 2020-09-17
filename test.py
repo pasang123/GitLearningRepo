@@ -1,18 +1,5 @@
 
 
-# print ([1,2]*2)
-#
-# import array
-#
-# a = array.array('f', (1.0, 1.5, 2.0, 211222))
-# print(a)
-#
-# import sys
-# print (sys.version)
-#
-# import datetime
-# print(datetime.datetime.now())
-
 
 # x=range(10)
 # print (type(x))
